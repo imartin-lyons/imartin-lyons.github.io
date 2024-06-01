@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS",Tahoma,Verdana, sans-serif;
+    color: #0B131C;
+    background-color: #f8f4f9;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    background-color: #BFD89C;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /*#picandname {
+    display: block;
+    position: relative;
+  }*/
+
+  #sidepic {
+    display:block;
+    margin: 30px;
+    margin-left: auto;
+    margin-bottom: 0;
+    border-style: solid;
+    border-color: #0B131C;
+    border-width: 10px;
+    width: 250px;
+  }
+  
+  .sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #0B131C;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .sidebar h2 {
+    margin-right: 35px;
+    text-align: center;
+  }
+   
+  #navigation a.active {
+    background-color: #0B131C;
+    color: #f8f4f9;
+  } 
+  
+  #navigation a:hover {
+    background-color: #2B5A16;
+    color: #f8f4f9;
+  }
+
+  .sidebar a:hover {
+    color: #f8f4f9;
+  }
+  
+  div.content {
+    margin-left: 35%;
+    margin-right: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  .content h1{
+    margin-top: 50px;
+  }
+
+  .content a {
+    text-decoration: none;
+    color: #2B5A16;
+  }
+
+  .content a:hover {
+    text-decoration: underline;
+  }
+
+  #keywords {
+    margin-top: 20px;
+    font-size: 80%;
+  }
+
+  div.citation {
+    padding: 20px;
+  }
+
+a.arxiv {
+    background-color: #b31b1b;
+    color: #f8f4f9;
+    margin-top: 5px;
+    display: inline-block;
+    width: min-content;
+    padding: 5px;
+  }
+
+a.doi {
+    background-color: #3078BA;
+    color: #f8f4f9;
+    display: inline-block;
+    width: min-content;
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+a.slides {
+    background-color: #2B5A16;
+    color: #f8f4f9;
+    display: inline-block;
+    width: min-content;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #sidepic {
+      margin-right: auto;
+    }
+    #navigation {
+        width: max-content;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    #navigation a {
+        float: left;
+    } 
+    .sidebar h2 {
+        text-align: center;
+        display: block;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    div.content {margin-left: 0;
+        margin-right: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navigation{
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #sidepic {
+      margin-right: auto;
+    }
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
