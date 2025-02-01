@@ -28,7 +28,7 @@ body {
     border-style: solid;
     border-color: #0B131C;
     border-width: 10px;
-    width: 250px;
+    width: 220px;
   }
   
   .sidebar a {
@@ -40,7 +40,7 @@ body {
   }
 
   .sidebar h2 {
-    margin-right: 35px;
+    margin-right: 20px;
     text-align: center;
   }
    
@@ -84,7 +84,7 @@ body {
   }
 
   div.citation {
-    padding: 20px;
+    padding: 15px;
   }
 
 a.arxiv {
